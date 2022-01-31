@@ -34,7 +34,10 @@ battery = ADC(35)
 battery.atten(ADC.ATTN_11DB)
 
 def getBattery():
-     #Full range: 0-3.3v
+    #Full range: 0-3.3v
     return battery.read()
 ```
+
+## Real Time Clock
+- module DateTime.py sets the RTC on boot via modified code from [Loboris forum](https://loboris.eu/forum/showthread.php?tid=12)
  
