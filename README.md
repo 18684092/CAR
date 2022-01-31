@@ -25,5 +25,16 @@ Git repo [simple2](https://github.com/fizista/micropython-umqtt.simple2) and
 ## Network Utils
 - [uping](https://gist.github.com/shawwwn/91cc8979e33e82af6d99ec34c38195fb) is a handy tool
 
- 
+## Battery
+- Pin 35 (vbat) is connected to ADC but can't be read when powered from USB (it reads 142). On full attenuation should read 4095 - which will be half the battery voltage since vbat is divided by 2 resistors. Obvious you need to find the min and max allowed levels and plot the battery decay to get some idea of power drain.
+```
+from machine import Pin, ADC
+
+battery = ADC(35)
+battery.atten(ADC.ATTN_11DB)
+
+def getBattery():
+     #Full range: 0-3.3v
+    return battery.read()
+'''
  
