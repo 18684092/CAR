@@ -26,7 +26,7 @@ Git repo [simple2](https://github.com/fizista/micropython-umqtt.simple2) and
 - [uping](https://gist.github.com/shawwwn/91cc8979e33e82af6d99ec34c38195fb) is a handy tool
 
 ## Battery
-- Pin 35 (vbat) is connected to ADC but can't be read when powered from USB (it reads 142). On full attenuation should read 4095 - which will be half the battery voltage since vbat is divided by 2 resistors. Obvious you need to find the min and max allowed levels and plot the battery decay to get some idea of power drain.
+- Pin 35 (vbat) is connected to ADC but can't be read when powered from USB (it reads 142). On full attenuation should read 4095 - which will be half the battery voltage since vbat is divided by 2 resistors. Obviously you need to find the min and max allowed levels and plot the battery decay to get some idea of power drain. A [guide](https://randomnerdtutorials.com/esp32-esp8266-analog-readings-micropython/) explains.
 ```
 from machine import Pin, ADC
 

@@ -1,6 +1,6 @@
 from machine import Pin, ADC
 
-battery = ADC(35)
+battery = ADC(Pin(35))
 battery.atten(ADC.ATTN_11DB)
 
 def getBattery():
