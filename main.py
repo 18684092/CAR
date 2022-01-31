@@ -38,14 +38,10 @@ GSM_PWR.value(0)
 LED.value(1)
 
 
-print("Test WiFi")
-
-print("Test MQTT")
 
 
-
-for i in range(0,9):
-    _thread.start_new_thread("test" + str(i), th_func, (i + 1, i))
+#for i in range(0,9):
+#    _thread.start_new_thread("test" + str(i), th_func, (i + 1, i))
 
 # wait for threads to finish
 time.sleep(1)

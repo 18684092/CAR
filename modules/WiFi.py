@@ -15,7 +15,6 @@ def connect():
         while not wlan.isconnected():
             pass
     print('network config:', wlan.ifconfig())   
-    testConnectivity()
 
 
 def testConnectivity():

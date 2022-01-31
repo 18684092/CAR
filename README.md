@@ -22,5 +22,8 @@ Call A Robot using TTGO T-SIM7000G Module ESP32 Development board with integrate
 Git repo [simple2](https://github.com/fizista/micropython-umqtt.simple2) and
 [robust2](https://github.com/fizista/micropython-umqtt.robust2)
 
+## Network Utils
+- [uping](https://gist.github.com/shawwwn/91cc8979e33e82af6d99ec34c38195fb) is a handy tool
+
  
  
