@@ -1,3 +1,5 @@
+# https://docs.pycom.io/firmwareapi/pycom/network/bluetooth/
+
 from network import Bluetooth as bluetooth
 import time
 
