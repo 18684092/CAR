@@ -7,7 +7,20 @@ Call A Robot using TTGO T-SIM7000G Module ESP32 Development board with integrate
  - If you get a `E (1051) MicroPython: Error while opening MicroPython NVS name space` error then you probably did not erase the firmware.
  - If you get a `W (2128) phy_init: failed to load RF calibration data (0x1102), falling back to full calibration` error this is likely to be related to a power supply issue. Use a better cable or do not go through a USB hib. Unplug ESP32 card and try again
 
+## Threads
+- [LoBo Threads](https://github.com/loboris/MicroPython_ESP32_psRAM_LoBo/wiki/thread) are slightly different from standard Micro Python threads so many examples will fail. LoBo requires a thread name as first parameter.
 
+## Bluetooth
+- LoBo Micropython doesn't have Bluetooth within the network module
+
+## GSM / GPS LilyGo SIM7000G
+- Stanard MicroPython doesn't have a GSM module
+- LoBo MicroPython does
+
+## MQTT
+- LoBo MicroPython fails to import `micropython-umqtt.simple` and `micropython-umqtt.robust` via `upip.install('micropython-umqtt.robust2')` therefore use:
+Git repo [simple2](https://github.com/fizista/micropython-umqtt.simple2) and
+[robust2](https://github.com/fizista/micropython-umqtt.robust2)
 
  
  

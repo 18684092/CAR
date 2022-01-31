@@ -9,6 +9,19 @@ import time
 import sys
 import gsm
 from modules.WiFi import connect
+from modules.MQTT import mqtt_t
+try:
+    import utime as time
+except ImportError:
+    import time
+import _thread
+def th_func(delay, id):
+    count = 0
+    while count < 10:
+        time.sleep(delay)
+        count += 1
+        print('Running thread %d' % id)
+    print('ending thread %d' % id)
 
 # APN credentials (replace with yours)
 GSM_APN = ''  # Your APN
@@ -26,7 +39,17 @@ LED.value(1)
 
 
 print("Test WiFi")
-connect()
+
+print("Test MQTT")
+
+
+
+for i in range(0,9):
+    _thread.start_new_thread("test" + str(i), th_func, (i + 1, i))
+
+# wait for threads to finish
+time.sleep(1)
+print('done')
 
 # Init PPPoS
 # gsm.debug(True)  # Uncomment this to see more logs, investigate issues, etc.
