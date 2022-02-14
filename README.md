@@ -38,7 +38,7 @@ Git repo [simple2](https://github.com/fizista/micropython-umqtt.simple2) and
 - [Ping within SIM7000G Manual](https://simcom.ee/documents/SIM7000x/SIM7000%20Series_PING_Application%20Note_V1.00.pdf)
 
 ## Battery
-- Pin 35 (vbat) is connected to ADC but can't be read when powered from USB (it reads 142). On full attenuation should read 4095 - which will be half the battery voltage since vbat is divided by 2 resistors. Obviously you need to find the min and max allowed levels and plot the battery decay to get some idea of power drain. A [guide](https://randomnerdtutorials.com/esp32-esp8266-analog-readings-micropython/) explains.
+- ESP32 Pin 35 (vbat) is connected to ADC but can't be read when powered from USB (it reads 142). On full attenuation should read 4095 - which will be half the battery voltage since vbat is divided by 2 resistors. Obviously you need to find the min and max allowed levels and plot the battery decay to get some idea of power drain. A [guide](https://randomnerdtutorials.com/esp32-esp8266-analog-readings-micropython/) explains.
 ```
 from machine import Pin, ADC
 
@@ -49,6 +49,8 @@ def getBattery():
     #Full range: 0-3.3v
     return battery.read()
 ```
+- SIM7000G has a battery pin (VBAT) and it can be read via an AT command
+`gsm.atcmd('AT+CBC', printable=True)`
 
 ## Real Time Clock
 - module DateTime.py sets the RTC on boot via modified code from [Loboris forum](https://loboris.eu/forum/showthread.php?tid=12)
