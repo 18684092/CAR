@@ -50,6 +50,7 @@ def getBattery():
     return battery.read()
 ```
 - SIM7000G has a battery pin (VBAT) and it can be read via an AT command
+
 `gsm.atcmd('AT+CBC', printable=True)`
 
 ## Real Time Clock
