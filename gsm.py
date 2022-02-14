@@ -6,7 +6,7 @@ import gsm
 
 # APN credentials (replace with yours)
 
-GSM_APN = 'ASK4 Wireless'  # Your APN
+GSM_APN = 'internet'  # Your APN
 GSM_USER = ''  # Your User
 GSM_PASS = ''  # Your Pass
 
