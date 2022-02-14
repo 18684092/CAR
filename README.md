@@ -52,4 +52,10 @@ def getBattery():
 
 ## Real Time Clock
 - module DateTime.py sets the RTC on boot via modified code from [Loboris forum](https://loboris.eu/forum/showthread.php?tid=12)
+- [NTP for SIM7000G](https://simcom.ee/documents/SIM7000x/SIM7000%20Series_NTP_Application%20Note_V1.00.pdf)
+
+## TCP/IP
+- [AT Commands for TCP/IP SIM7000G](https://simcom.ee/documents/SIM7000x/SIM7000%20Series_TCPIP_Application%20Note_V1.01.pdf)
  
+## SIM7000G UART
+- [UART Manual](https://simcom.ee/documents/SIM7000x/SIM7000%20Series%20UART%20Application%20Note_V1.00.pdf)
