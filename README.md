@@ -1,6 +1,6 @@
 # CAR
 Call A Robot using TTGO T-SIM7000G Module ESP32 Development board with integrated 4G/GPS and BT/WIFI modules
- - [SIM7000G Manuals] (https://simcom.ee/documents/?dir=SIM7000x)
+ - [SIM7000G Manuals](https://simcom.ee/documents/?dir=SIM7000x)
 
 **CURRENTLY testing board and getting used to different Micropythons**
 
@@ -25,6 +25,7 @@ Call A Robot using TTGO T-SIM7000G Module ESP32 Development board with integrate
 ## GSM / GPS LilyGo SIM7000G
 - Stanard MicroPython doesn't have a GSM module
 - LoBo MicroPython does
+- [AT Commands Manual](https://simcom.ee/documents/SIM7000x/SIM7000%20Series_AT%20Command%20Manual_V1.04.pdf)
 
 ## MQTT
 - LoBo MicroPython fails to import `micropython-umqtt.simple` and `micropython-umqtt.robust` via `upip.install('micropython-umqtt.robust2')` therefore use:
@@ -34,6 +35,7 @@ Git repo [simple2](https://github.com/fizista/micropython-umqtt.simple2) and
 
 ## Network Utils
 - [uping](https://gist.github.com/shawwwn/91cc8979e33e82af6d99ec34c38195fb) is a handy tool
+- [Ping within SIM7000G Manual](https://simcom.ee/documents/SIM7000x/SIM7000%20Series_PING_Application%20Note_V1.00.pdf)
 
 ## Battery
 - Pin 35 (vbat) is connected to ADC but can't be read when powered from USB (it reads 142). On full attenuation should read 4095 - which will be half the battery voltage since vbat is divided by 2 resistors. Obviously you need to find the min and max allowed levels and plot the battery decay to get some idea of power drain. A [guide](https://randomnerdtutorials.com/esp32-esp8266-analog-readings-micropython/) explains.
