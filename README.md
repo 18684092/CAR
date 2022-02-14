@@ -1,5 +1,6 @@
 # CAR
 Call A Robot using TTGO T-SIM7000G Module ESP32 Development board with integrated 4G/GPS and BT/WIFI modules
+ - [SIM7000G Manuals] (https://simcom.ee/documents/?dir=SIM7000x)
 
 **CURRENTLY testing board and getting used to different Micropythons**
 
@@ -29,6 +30,7 @@ Call A Robot using TTGO T-SIM7000G Module ESP32 Development board with integrate
 - LoBo MicroPython fails to import `micropython-umqtt.simple` and `micropython-umqtt.robust` via `upip.install('micropython-umqtt.robust2')` therefore use:
 Git repo [simple2](https://github.com/fizista/micropython-umqtt.simple2) and
 [robust2](https://github.com/fizista/micropython-umqtt.robust2)
+- [MQTT Manual](https://simcom.ee/documents/SIM7000x/SIM7000%20Series_MQTT_Application%20Note_V1.00.pdf)
 
 ## Network Utils
 - [uping](https://gist.github.com/shawwwn/91cc8979e33e82af6d99ec34c38195fb) is a handy tool
