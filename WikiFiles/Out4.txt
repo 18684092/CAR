@@ -1,0 +1,186 @@
+IN MAIN
+I (5540) phy: phy_version: 3960, 5211945, Jul 18 2018, 10:40:07, 0, 0
+INIT HARDWARE
+INIT STATE MACHINE
+INIT MODEM
+Waiting for AT command response...
+CSQ 
+RETRY 0 Sig CSQ 
+.RETRY 1 Sig CSQ 
+.RETRY 2 Sig CSQ 
+.RETRY 3 Sig CSQ 
+.RETRY 4 Sig CSQ 
+.RETRY 5 Sig CSQ 
+.RETRY 6 Sig CSQ ..+CSQ: 31,99....OK..
+Got AT: (89, 'Idle')
+IP: 0.0.0.0
+CSQ ..+CSQ: 31,99....OK..
+CGNAPN ..+CGNAPN: 0,""....OK..
+BAT ..+CBC: 0,65,3849....OK..
+SIM7000G INIT DONE
+STATUS: (89, 'Idle')
+INIT GPS
+Attempting to establish GPS signal.
+Try 1 out of 20.
+(2022, 2, 15, 13, 22, 33, 3, 46) 3841
+ERROR with GPS values
+..+CGNSINF: 1,0,,,,,,,0,,,,,,2,,,,33,,....OK..
+0 GNSS: 1 Fix: 0 Latitude:  Long:  PDOP: n/a HDOP: n/a VDOP: n/a meanDOP n/a
+ERROR with GPS values
+..+CGNSINF: 1,0,,,,,,,0,,,,,,6,,,,34,,....OK..
+1 GNSS: 1 Fix: 0 Latitude:  Long:  PDOP: n/a HDOP: n/a VDOP: n/a meanDOP n/a
+ERROR with GPS values
+..+CGNSINF: 1,0,,,,,,,0,,,,,,10,,,,35,,....OK..
+2 GNSS: 1 Fix: 0 Latitude:  Long:  PDOP: n/a HDOP: n/a VDOP: n/a meanDOP n/a
+ERROR with GPS values
+..+CGNSINF: 1,0,,,,,,,0,,,,,,12,,,,35,,....OK..
+3 GNSS: 1 Fix: 0 Latitude:  Long:  PDOP: n/a HDOP: n/a VDOP: n/a meanDOP n/a
+ERROR with GPS values
+..+CGNSINF: 1,0,,,,,,,0,,,,,,13,,,,35,,....OK..
+4 GNSS: 1 Fix: 0 Latitude:  Long:  PDOP: n/a HDOP: n/a VDOP: n/a meanDOP n/a
+ERROR with GPS values
+..+CGNSINF: 1,0,,,,,,,0,,,,,,14,,,,35,,....OK..
+5 GNSS: 1 Fix: 0 Latitude:  Long:  PDOP: n/a HDOP: n/a VDOP: n/a meanDOP n/a
+ERROR with GPS values
+..+CGNSINF: 1,0,,,,,,,0,,,,,,15,,,,35,,....OK..
+6 GNSS: 1 Fix: 0 Latitude:  Long:  PDOP: n/a HDOP: n/a VDOP: n/a meanDOP n/a
+ERROR with GPS values
+..+CGNSINF: 1,0,,,,,,,0,,,,,,15,,,,35,,....OK..
+7 GNSS: 1 Fix: 0 Latitude:  Long:  PDOP: n/a HDOP: n/a VDOP: n/a meanDOP n/a
+ERROR with GPS values
+..+CGNSINF: 1,0,,,,,,,0,,,,,,16,,,,35,,....OK..
+8 GNSS: 1 Fix: 0 Latitude:  Long:  PDOP: n/a HDOP: n/a VDOP: n/a meanDOP n/a
+ERROR with GPS values
+..+CGNSINF: 1,0,,,,,,,0,,,,,,16,,,,35,,....OK..
+9 GNSS: 1 Fix: 0 Latitude:  Long:  PDOP: n/a HDOP: n/a VDOP: n/a meanDOP n/a
+ERROR with GPS values
+..+CGNSINF: 1,0,,,,,,,0,,,,,,16,,,,35,,....OK..
+10 GNSS: 1 Fix: 0 Latitude:  Long:  PDOP: n/a HDOP: n/a VDOP: n/a meanDOP n/a
+ERROR with GPS values
+..+CGNSINF: 1,0,,,,,,,0,,,,,,17,,,,35,,....OK..
+11 GNSS: 1 Fix: 0 Latitude:  Long:  PDOP: n/a HDOP: n/a VDOP: n/a meanDOP n/a
+ERROR with GPS values
+..+CGNSINF: 1,0,,,,,,,0,,,,,,18,,,,35,,....OK..
+12 GNSS: 1 Fix: 0 Latitude:  Long:  PDOP: n/a HDOP: n/a VDOP: n/a meanDOP n/a
+ERROR with GPS values
+..+CGNSINF: 1,0,,,,,,,0,,,,,,18,,,,36,,....OK..
+13 GNSS: 1 Fix: 0 Latitude:  Long:  PDOP: n/a HDOP: n/a VDOP: n/a meanDOP n/a
+ERROR with GPS values
+..+CGNSINF: 1,0,,,,,,,0,,,,,,18,,,,37,,....OK..
+14 GNSS: 1 Fix: 0 Latitude:  Long:  PDOP: n/a HDOP: n/a VDOP: n/a meanDOP n/a
+ERROR with GPS values
+..+CGNSINF: 1,0,,,,,,,0,,,,,,18,,,,37,,....OK..
+15 GNSS: 1 Fix: 0 Latitude:  Long:  PDOP: n/a HDOP: n/a VDOP: n/a meanDOP n/a
+ERROR with GPS values
+..+CGNSINF: 1,0,,,,,,,0,,,,,,18,,,,37,,....OK..
+16 GNSS: 1 Fix: 0 Latitude:  Long:  PDOP: n/a HDOP: n/a VDOP: n/a meanDOP n/a
+ERROR with GPS values
+..+CGNSINF: 1,0,,,,,,,0,,,,,,18,,,,37,,....OK..
+17 GNSS: 1 Fix: 0 Latitude:  Long:  PDOP: n/a HDOP: n/a VDOP: n/a meanDOP n/a
+ERROR with GPS values
+..+CGNSINF: 1,0,,,,,,,0,,,,,,18,,,,37,,....OK..
+18 GNSS: 1 Fix: 0 Latitude:  Long:  PDOP: n/a HDOP: n/a VDOP: n/a meanDOP n/a
+ERROR with GPS values
+..+CGNSINF: 1,0,,,,,,,0,,,,,,18,,,,37,,....OK..
+19 GNSS: 1 Fix: 0 Latitude:  Long:  PDOP: n/a HDOP: n/a VDOP: n/a meanDOP n/a
+ERROR with GPS values
+..+CGNSINF: 1,0,,,,,,,0,,,,,,18,,,,37,,....OK..
+20 GNSS: 1 Fix: 0 Latitude:  Long:  PDOP: n/a HDOP: n/a VDOP: n/a meanDOP n/a
+ERROR with GPS values
+..+CGNSINF: 1,0,,,,,,,0,,,,,,35,,,,36,,....OK..
+21 GNSS: 1 Fix: 0 Latitude:  Long:  PDOP: n/a HDOP: n/a VDOP: n/a meanDOP n/a
+ERROR with GPS values
+..+CGNSINF: 1,0,,,,,,,0,,,,,,35,,,,37,,....OK..
+22 GNSS: 1 Fix: 0 Latitude:  Long:  PDOP: n/a HDOP: n/a VDOP: n/a meanDOP n/a
+ERROR with GPS values
+..+CGNSINF: 1,0,,,,,,,0,,,,,,35,,,,37,,....OK..
+23 GNSS: 1 Fix: 0 Latitude:  Long:  PDOP: n/a HDOP: n/a VDOP: n/a meanDOP n/a
+ERROR with GPS values
+..+CGNSINF: 1,0,,,,,,,0,,,,,,35,,,,36,,....OK..
+24 GNSS: 1 Fix: 0 Latitude:  Long:  PDOP: n/a HDOP: n/a VDOP: n/a meanDOP n/a
+ERROR with GPS values
+..+CGNSINF: 1,0,,,,,,,0,,,,,,35,,,,37,,....OK..
+25 GNSS: 1 Fix: 0 Latitude:  Long:  PDOP: n/a HDOP: n/a VDOP: n/a meanDOP n/a
+ERROR with GPS values
+..+CGNSINF: 1,0,,,,,,,0,,,,,,35,,,,36,,....OK..
+26 GNSS: 1 Fix: 0 Latitude:  Long:  PDOP: n/a HDOP: n/a VDOP: n/a meanDOP n/a
+ERROR with GPS values
+..+CGNSINF: 1,0,,,,,,,0,,,,,,35,,,,37,,....OK..
+27 GNSS: 1 Fix: 0 Latitude:  Long:  PDOP: n/a HDOP: n/a VDOP: n/a meanDOP n/a
+ERROR with GPS values
+..+CGNSINF: 1,0,,,,,,,0,,,,,,35,,,,37,,....OK..
+28 GNSS: 1 Fix: 0 Latitude:  Long:  PDOP: n/a HDOP: n/a VDOP: n/a meanDOP n/a
+ERROR with GPS values
+..+CGNSINF: 1,0,,,,,,,0,,,,,,35,,,,37,,....OK..
+29 GNSS: 1 Fix: 0 Latitude:  Long:  PDOP: n/a HDOP: n/a VDOP: n/a meanDOP n/a
+ERROR with GPS values
+..+CGNSINF: 1,0,,,,,,,0,,,,,,35,,,,37,,....OK..
+30 GNSS: 1 Fix: 0 Latitude:  Long:  PDOP: n/a HDOP: n/a VDOP: n/a meanDOP n/a
+ERROR with GPS values
+..+CGNSINF: 1,0,,,,,,,0,,,,,,,,,,,,....OK..
+31 GNSS: 1 Fix: 0 Latitude:  Long:  PDOP: n/a HDOP: n/a VDOP: n/a meanDOP n/a
+ERROR with GPS values
+..+CGNSINF: 1,0,,,,,,,0,,,,,,30,,,,36,,....OK..
+32 GNSS: 1 Fix: 0 Latitude:  Long:  PDOP: n/a HDOP: n/a VDOP: n/a meanDOP n/a
+ERROR with GPS values
+..+CGNSINF: 1,0,,,,,,,0,,,,,,30,,,,36,,....OK..
+33 GNSS: 1 Fix: 0 Latitude:  Long:  PDOP: n/a HDOP: n/a VDOP: n/a meanDOP n/a
+ERROR with GPS values
+..+CGNSINF: 1,0,,,,,,,0,,,,,,30,,,,36,,....OK..
+34 GNSS: 1 Fix: 0 Latitude:  Long:  PDOP: n/a HDOP: n/a VDOP: n/a meanDOP n/a
+ERROR with GPS values
+..+CGNSINF: 1,0,,,,,,,0,,,,,,30,,,,36,,....OK..
+35 GNSS: 1 Fix: 0 Latitude:  Long:  PDOP: n/a HDOP: n/a VDOP: n/a meanDOP n/a
+ERROR with GPS values
+..+CGNSINF: 1,0,,,,,,,0,,,,,,30,,,,36,,....OK..
+36 GNSS: 1 Fix: 0 Latitude:  Long:  PDOP: n/a HDOP: n/a VDOP: n/a meanDOP n/a
+ERROR with GPS values
+..+CGNSINF: 1,0,,,,,,,0,,,,,,30,,,,36,,....OK..
+37 GNSS: 1 Fix: 0 Latitude:  Long:  PDOP: n/a HDOP: n/a VDOP: n/a meanDOP n/a
+ERROR with GPS values
+..+CGNSINF: 1,0,,,,,,,0,,,,,,30,,,,36,,....OK..
+38 GNSS: 1 Fix: 0 Latitude:  Long:  PDOP: n/a HDOP: n/a VDOP: n/a meanDOP n/a
+ERROR with GPS values
+..+CGNSINF: 1,0,,,,,,,0,,,,,,30,,,,36,,....OK..
+39 GNSS: 1 Fix: 0 Latitude:  Long:  PDOP: n/a HDOP: n/a VDOP: n/a meanDOP n/a
+ERROR with GPS values
+..+CGNSINF: 1,0,,,,,,,0,,,,,,30,,,,37,,....OK..
+40 GNSS: 1 Fix: 0 Latitude:  Long:  PDOP: n/a HDOP: n/a VDOP: n/a meanDOP n/a
+ERROR with GPS values
+..+CGNSINF: 1,0,,,,,,,0,,,,,,30,,,,36,,....OK..
+41 GNSS: 1 Fix: 0 Latitude:  Long:  PDOP: n/a HDOP: n/a VDOP: n/a meanDOP n/a
+ERROR with GPS values
+..+CGNSINF: 1,0,,,,,,,0,,,,,,30,,,,36,,....OK..
+42 GNSS: 1 Fix: 0 Latitude:  Long:  PDOP: n/a HDOP: n/a VDOP: n/a meanDOP n/a
+ERROR with GPS values
+..+CGNSINF: 1,0,,,,,,,0,,,,,,30,,,,36,,....OK..
+43 GNSS: 1 Fix: 0 Latitude:  Long:  PDOP: n/a HDOP: n/a VDOP: n/a meanDOP n/a
+ERROR with GPS values
+..+CGNSINF: 1,0,,,,,,,0,,,,,,30,,,,36,,....OK..
+44 GNSS: 1 Fix: 0 Latitude:  Long:  PDOP: n/a HDOP: n/a VDOP: n/a meanDOP n/a
+ERROR with GPS values
+..+CGNSINF: 1,0,,,,,,,0,,,,,,30,,,,36,,....OK..
+45 GNSS: 1 Fix: 0 Latitude:  Long:  PDOP: n/a HDOP: n/a VDOP: n/a meanDOP n/a
+ERROR with GPS values
+..+CGNSINF: 1,0,,,,,,,0,,,,,,30,,,,36,,....OK..
+46 GNSS: 1 Fix: 0 Latitude:  Long:  PDOP: n/a HDOP: n/a VDOP: n/a meanDOP n/a
+ERROR with GPS values
+..+CGNSINF: 1,0,,,,,,,0,,,,,,29,,,,36,,....OK..
+47 GNSS: 1 Fix: 0 Latitude:  Long:  PDOP: n/a HDOP: n/a VDOP: n/a meanDOP n/a
+ERROR with GPS values
+..+CGNSINF: 1,0,,,,,,,0,,,,,,27,,,,36,,....OK..
+48 GNSS: 1 Fix: 0 Latitude:  Long:  PDOP: n/a HDOP: n/a VDOP: n/a meanDOP n/a
+ERROR with GPS values
+..+CGNSINF: 1,0,,,,,,,0,,,,,,26,,,,35,,....OK..
+49 GNSS: 1 Fix: 0 Latitude:  Long:  PDOP: n/a HDOP: n/a VDOP: n/a meanDOP n/a
+ERROR with GPS values
+..+CGNSINF: 1,0,,,,,,,0,,,,,,26,,,,36,,....OK..
+50 GNSS: 1 Fix: 0 Latitude:  Long:  PDOP: n/a HDOP: n/a VDOP: n/a meanDOP n/a
+51 GNSS: 1 Fix: 1 Latitude: 53.229491 Long: -0.555470 PDOP: n/a HDOP: good VDOP: n/a meanDOP n/a
+52 GNSS: 1 Fix: 1 Latitude: 53.229491 Long: -0.555469 PDOP: good HDOP: good VDOP: ideal meanDOP good
+53 GNSS: 1 Fix: 1 Latitude: 53.229491 Long: -0.555468 PDOP: good HDOP: good VDOP: ideal meanDOP good
+54 GNSS: 1 Fix: 1 Latitude: 53.229491 Long: -0.555468 PDOP: good HDOP: good VDOP: ideal meanDOP good
+55 GNSS: 1 Fix: 1 Latitude: 53.229492 Long: -0.555463 PDOP: good HDOP: good VDOP: ideal meanDOP good
+56 GNSS: 1 Fix: 1 Latitude: 53.229492 Long: -0.555465 PDOP: good HDOP: good VDOP: ideal meanDOP good
+57 GNSS: 1 Fix: 1 Latitude: 53.229492 Long: -0.555464 PDOP: good HDOP: good VDOP: ideal meanDOP good
+58 GNSS: 1 Fix: 1 Latitude: 53.229493 Long: -0.555462 PDOP: good HDOP: good VDOP: ideal meanDOP good

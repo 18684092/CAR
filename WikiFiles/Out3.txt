@@ -17,7 +17,6 @@ SIM7000G INIT DONE
 STATUS: (89, 'Idle')
 INIT GPS
 Attempting to establish GPS signal.
-Try 1 out of 20.
 (2022, 2, 15, 13, 22, 13, 3, 46) 3867
 0 GNSS: 1 Fix: 1 Latitude: 53.229295 Long: -0.555578 PDOP: excellent HDOP: excellent VDOP: ideal meanDOP excellent
 1 GNSS: 1 Fix: 1 Latitude: 53.229296 Long: -0.555577 PDOP: excellent HDOP: excellent VDOP: ideal meanDOP excellent

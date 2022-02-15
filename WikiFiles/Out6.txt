@@ -1,0 +1,75 @@
+IN MAIN
+I (5624) phy: phy_version: 3960, 5211945, Jul 18 2018, 10:40:07, 0, 0
+INIT HARDWARE
+INIT STATE MACHINE
+INIT MODEM
+Waiting for AT command response...
+RETRY 0
+COPS= 
+.RETRY 1
+COPS= 
+.RETRY 2
+COPS= 
+.RETRY 3
+COPS= 
+.RETRY 4
+COPS= ..+COPS: (2,"O2 - UK","O2 - UK","23410",0),(3,"vodafone UK","voda UK","23415",0),(3,"EE","EE","23430",0),,(0,1,2,3,4),(0,1,2)....OK..
+Got AT: (89, 'Idle')
+IP: 0.0.0.0
+CSQ ..+CSQ: 31,99....OK..
+CGNAPN ..+CGNAPN: 0,""....OK..
+COPS? ..+COPS: 0,0,"O2 - UK",0....OK..
+CGMI ..SIMCOM_Ltd....OK..
+BAT ..+CBC: 0,65,3848....OK..
+SIM7000G INIT DONE
+STATUS: (89, 'Idle')
+INIT GPS
+Attempting to establish GPS signal.
+..+CBC: 0,64,3840....OK..
+(2022, 2, 15, 17, 17, 46, 3, 46) 3840
+0 GNSS: 1 Fix: 0 Latitude:  Long:  PDOP: n/a HDOP: n/a VDOP: n/a meanDOP n/a
+1 GNSS: 1 Fix: 0 Latitude:  Long:  PDOP: n/a HDOP: n/a VDOP: n/a meanDOP n/a
+2 GNSS: 1 Fix: 0 Latitude:  Long:  PDOP: n/a HDOP: n/a VDOP: n/a meanDOP n/a
+3 GNSS: 1 Fix: 0 Latitude:  Long:  PDOP: n/a HDOP: n/a VDOP: n/a meanDOP n/a
+4 GNSS: 1 Fix: 0 Latitude:  Long:  PDOP: n/a HDOP: n/a VDOP: n/a meanDOP n/a
+5 GNSS: 1 Fix: 0 Latitude:  Long:  PDOP: n/a HDOP: n/a VDOP: n/a meanDOP n/a
+6 GNSS: 1 Fix: 0 Latitude:  Long:  PDOP: n/a HDOP: n/a VDOP: n/a meanDOP n/a
+7 GNSS: 1 Fix: 0 Latitude:  Long:  PDOP: n/a HDOP: n/a VDOP: n/a meanDOP n/a
+8 GNSS: 1 Fix: 0 Latitude:  Long:  PDOP: n/a HDOP: n/a VDOP: n/a meanDOP n/a
+9 GNSS: 1 Fix: 0 Latitude:  Long:  PDOP: n/a HDOP: n/a VDOP: n/a meanDOP n/a
+10 GNSS: 1 Fix: 0 Latitude:  Long:  PDOP: n/a HDOP: n/a VDOP: n/a meanDOP n/a
+11 GNSS: 1 Fix: 0 Latitude:  Long:  PDOP: n/a HDOP: n/a VDOP: n/a meanDOP n/a
+12 GNSS: 1 Fix: 0 Latitude:  Long:  PDOP: n/a HDOP: n/a VDOP: n/a meanDOP n/a
+13 GNSS: 1 Fix: 0 Latitude:  Long:  PDOP: n/a HDOP: n/a VDOP: n/a meanDOP n/a
+14 GNSS: 1 Fix: 0 Latitude:  Long:  PDOP: n/a HDOP: n/a VDOP: n/a meanDOP n/a
+15 GNSS: 1 Fix: 0 Latitude:  Long:  PDOP: n/a HDOP: n/a VDOP: n/a meanDOP n/a
+16 GNSS: 1 Fix: 0 Latitude:  Long:  PDOP: n/a HDOP: n/a VDOP: n/a meanDOP n/a
+17 GNSS: 1 Fix: 0 Latitude:  Long:  PDOP: n/a HDOP: n/a VDOP: n/a meanDOP n/a
+18 GNSS: 1 Fix: 0 Latitude:  Long:  PDOP: n/a HDOP: n/a VDOP: n/a meanDOP n/a
+19 GNSS: 1 Fix: 0 Latitude:  Long:  PDOP: n/a HDOP: n/a VDOP: n/a meanDOP n/a
+20 GNSS: 1 Fix: 0 Latitude:  Long:  PDOP: n/a HDOP: n/a VDOP: n/a meanDOP n/a
+21 GNSS: 1 Fix: 0 Latitude:  Long:  PDOP: n/a HDOP: n/a VDOP: n/a meanDOP n/a
+22 GNSS: 1 Fix: 0 Latitude:  Long:  PDOP: n/a HDOP: n/a VDOP: n/a meanDOP n/a
+23 GNSS: 1 Fix: 0 Latitude:  Long:  PDOP: n/a HDOP: n/a VDOP: n/a meanDOP n/a
+24 GNSS: 1 Fix: 0 Latitude:  Long:  PDOP: n/a HDOP: n/a VDOP: n/a meanDOP n/a
+25 GNSS: 1 Fix: 0 Latitude:  Long:  PDOP: n/a HDOP: n/a VDOP: n/a meanDOP n/a
+26 GNSS: 1 Fix: 0 Latitude:  Long:  PDOP: n/a HDOP: n/a VDOP: n/a meanDOP n/a
+27 GNSS: 1 Fix: 0 Latitude:  Long:  PDOP: n/a HDOP: n/a VDOP: n/a meanDOP n/a
+28 GNSS: 1 Fix: 0 Latitude:  Long:  PDOP: n/a HDOP: n/a VDOP: n/a meanDOP n/a
+29 GNSS: 1 Fix: 0 Latitude:  Long:  PDOP: n/a HDOP: n/a VDOP: n/a meanDOP n/a
+30 GNSS: 1 Fix: 0 Latitude:  Long:  PDOP: n/a HDOP: n/a VDOP: n/a meanDOP n/a
+31 GNSS: 1 Fix: 0 Latitude:  Long:  PDOP: n/a HDOP: n/a VDOP: n/a meanDOP n/a
+32 GNSS: 1 Fix: 0 Latitude:  Long:  PDOP: n/a HDOP: n/a VDOP: n/a meanDOP n/a
+33 GNSS: 1 Fix: 0 Latitude:  Long:  PDOP: n/a HDOP: n/a VDOP: n/a meanDOP n/a
+34 GNSS: 1 Fix: 0 Latitude:  Long:  PDOP: n/a HDOP: n/a VDOP: n/a meanDOP n/a
+35 GNSS: 1 Fix: 0 Latitude:  Long:  PDOP: n/a HDOP: n/a VDOP: n/a meanDOP n/a
+36 GNSS: 1 Fix: 1 Latitude: 53.229571 Long: -0.555412 PDOP: n/a HDOP: excellent VDOP: n/a meanDOP n/a
+37 GNSS: 1 Fix: 1 Latitude: 53.229582 Long: -0.555397 PDOP: good HDOP: excellent VDOP: excellent meanDOP excellent
+38 GNSS: 1 Fix: 1 Latitude: 53.229583 Long: -0.555403 PDOP: good HDOP: excellent VDOP: excellent meanDOP excellent
+39 GNSS: 1 Fix: 1 Latitude: 53.229600 Long: -0.555386 PDOP: good HDOP: excellent VDOP: excellent meanDOP excellent
+40 GNSS: 1 Fix: 1 Latitude: 53.229643 Long: -0.555352 PDOP: good HDOP: excellent VDOP: excellent meanDOP excellent
+41 GNSS: 1 Fix: 1 Latitude: 53.229638 Long: -0.555364 PDOP: good HDOP: excellent VDOP: excellent meanDOP excellent
+Shutting Down.
+MicroPython ESP32_LoBo_v3.2.24 - 2018-09-06 on ESP32 board with ESP32
+Type "help()" for more information.
+>>> 
