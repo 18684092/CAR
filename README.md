@@ -24,7 +24,7 @@ Call A Robot using TTGO T-SIM7000G Module ESP32 Development board with integrate
 
 ## GSM / GPS LilyGo SIM7000G
 - Stanard MicroPython doesn't have a GSM module
-- LoBo MicroPython does
+- LoBo MicroPython does [GSM Module](https://github.com/loboris/MicroPython_ESP32_psRAM_LoBo/wiki/gsm)
 - [AT Commands Manual](https://simcom.ee/documents/SIM7000x/SIM7000%20Series_AT%20Command%20Manual_V1.04.pdf)
 
 ## MQTT
