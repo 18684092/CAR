@@ -1,0 +1,59 @@
+IN MAIN
+I (4987) phy: phy_version: 3960, 5211945, Jul 18 2018, 10:40:07, 0, 0
+INIT HARDWARE
+INIT STATE MACHINE
+INIT MODEM
+Waiting for AT command response...
+CSQ 
+RETRY 0 Sig CSQ 
+.RETRY 1 Sig CSQ 
+.RETRY 2 Sig CSQ ..+CSQ: 31,0....OK..
+Got AT: (89, 'Idle')
+IP: 0.0.0.0
+CSQ ..+CSQ: 31,0....OK..
+CGNAPN ..+CGNAPN: 0,""....OK..
+BAT ..+CBC: 0,66,3868....OK..
+SIM7000G INIT DONE
+STATUS: (89, 'Idle')
+INIT GPS
+Attempting to establish GPS signal.
+Try 1 out of 20.
+(2022, 2, 15, 13, 22, 13, 3, 46) 3867
+0 GNSS: 1 Fix: 1 Latitude: 53.229295 Long: -0.555578 PDOP: excellent HDOP: excellent VDOP: ideal meanDOP excellent
+1 GNSS: 1 Fix: 1 Latitude: 53.229296 Long: -0.555577 PDOP: excellent HDOP: excellent VDOP: ideal meanDOP excellent
+2 GNSS: 1 Fix: 1 Latitude: 53.229297 Long: -0.555575 PDOP: excellent HDOP: excellent VDOP: ideal meanDOP excellent
+3 GNSS: 1 Fix: 1 Latitude: 53.229298 Long: -0.555574 PDOP: excellent HDOP: excellent VDOP: ideal meanDOP excellent
+4 GNSS: 1 Fix: 1 Latitude: 53.229299 Long: -0.555574 PDOP: excellent HDOP: excellent VDOP: ideal meanDOP excellent
+5 GNSS: 1 Fix: 1 Latitude: 53.229299 Long: -0.555574 PDOP: excellent HDOP: excellent VDOP: ideal meanDOP excellent
+6 GNSS: 1 Fix: 1 Latitude: 53.229299 Long: -0.555574 PDOP: excellent HDOP: excellent VDOP: ideal meanDOP excellent
+7 GNSS: 1 Fix: 1 Latitude: 53.229299 Long: -0.555574 PDOP: excellent HDOP: excellent VDOP: ideal meanDOP excellent
+8 GNSS: 1 Fix: 1 Latitude: 53.229299 Long: -0.555574 PDOP: excellent HDOP: excellent VDOP: ideal meanDOP excellent
+9 GNSS: 1 Fix: 1 Latitude: 53.229299 Long: -0.555574 PDOP: excellent HDOP: excellent VDOP: ideal meanDOP excellent
+10 GNSS: 1 Fix: 1 Latitude: 53.229299 Long: -0.555574 PDOP: excellent HDOP: excellent VDOP: ideal meanDOP excellent
+11 GNSS: 1 Fix: 1 Latitude: 53.229299 Long: -0.555574 PDOP: excellent HDOP: excellent VDOP: ideal meanDOP excellent
+12 GNSS: 1 Fix: 1 Latitude: 53.229299 Long: -0.555574 PDOP: excellent HDOP: excellent VDOP: ideal meanDOP excellent
+13 GNSS: 1 Fix: 1 Latitude: 53.229299 Long: -0.555574 PDOP: excellent HDOP: excellent VDOP: ideal meanDOP excellent
+14 GNSS: 1 Fix: 1 Latitude: 53.229299 Long: -0.555574 PDOP: excellent HDOP: excellent VDOP: ideal meanDOP excellent
+15 GNSS: 1 Fix: 1 Latitude: 53.229299 Long: -0.555574 PDOP: excellent HDOP: excellent VDOP: ideal meanDOP excellent
+16 GNSS: 1 Fix: 1 Latitude: 53.229299 Long: -0.555574 PDOP: excellent HDOP: excellent VDOP: ideal meanDOP excellent
+17 GNSS: 1 Fix: 1 Latitude: 53.229299 Long: -0.555574 PDOP: excellent HDOP: excellent VDOP: ideal meanDOP excellent
+18 GNSS: 1 Fix: 1 Latitude: 53.229299 Long: -0.555573 PDOP: excellent HDOP: excellent VDOP: ideal meanDOP excellent
+19 GNSS: 1 Fix: 1 Latitude: 53.229299 Long: -0.555573 PDOP: good HDOP: good VDOP: ideal meanDOP excellent
+20 GNSS: 1 Fix: 1 Latitude: 53.229299 Long: -0.555573 PDOP: good HDOP: good VDOP: ideal meanDOP excellent
+21 GNSS: 1 Fix: 1 Latitude: 53.229299 Long: -0.555573 PDOP: good HDOP: good VDOP: ideal meanDOP excellent
+22 GNSS: 1 Fix: 1 Latitude: 53.229299 Long: -0.555573 PDOP: good HDOP: good VDOP: ideal meanDOP excellent
+23 GNSS: 1 Fix: 1 Latitude: 53.229299 Long: -0.555573 PDOP: good HDOP: good VDOP: ideal meanDOP excellent
+24 GNSS: 1 Fix: 1 Latitude: 53.229299 Long: -0.555573 PDOP: good HDOP: good VDOP: ideal meanDOP excellent
+25 GNSS: 1 Fix: 1 Latitude: 53.229299 Long: -0.555573 PDOP: good HDOP: good VDOP: ideal meanDOP excellent
+26 GNSS: 1 Fix: 1 Latitude: 53.229299 Long: -0.555573 PDOP: good HDOP: excellent VDOP: ideal meanDOP excellent
+27 GNSS: 1 Fix: 1 Latitude: 53.229301 Long: -0.555573 PDOP: excellent HDOP: excellent VDOP: ideal meanDOP excellent
+28 GNSS: 1 Fix: 1 Latitude: 53.229302 Long: -0.555575 PDOP: excellent HDOP: excellent VDOP: ideal meanDOP excellent
+29 GNSS: 1 Fix: 1 Latitude: 53.229303 Long: -0.555577 PDOP: excellent HDOP: excellent VDOP: ideal meanDOP excellent
+30 GNSS: 1 Fix: 1 Latitude: 53.229305 Long: -0.555577 PDOP: excellent HDOP: excellent VDOP: ideal meanDOP excellent
+31 GNSS: 1 Fix: 1 Latitude: 53.229305 Long: -0.555575 PDOP: excellent HDOP: excellent VDOP: ideal meanDOP excellent
+32 GNSS: 1 Fix: 1 Latitude: 53.229303 Long: -0.555570 PDOP: excellent HDOP: excellent VDOP: ideal meanDOP excellent
+33 GNSS: 1 Fix: 1 Latitude: 53.229300 Long: -0.555568 PDOP: excellent HDOP: excellent VDOP: ideal meanDOP excellent
+34 GNSS: 1 Fix: 1 Latitude: 53.229298 Long: -0.555570 PDOP: excellent HDOP: excellent VDOP: ideal meanDOP excellent
+35 GNSS: 1 Fix: 1 Latitude: 53.229294 Long: -0.555573 PDOP: excellent HDOP: excellent VDOP: ideal meanDOP excellent
+36 GNSS: 1 Fix: 1 Latitude: 53.229292 Long: -0.555574 PDOP: excellent HDOP: excellent VDOP: ideal meanDOP excellent
+37 GNSS: 1 Fix: 1 Latitude: 53.229291 Long: -0.555575 PDOP: excellent HDOP: excellent VDOP: ideal meanDOP excellent
