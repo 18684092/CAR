@@ -176,11 +176,11 @@ ERROR with GPS values
 ERROR with GPS values
 ..+CGNSINF: 1,0,,,,,,,0,,,,,,26,,,,36,,....OK..
 50 GNSS: 1 Fix: 0 Latitude:  Long:  PDOP: n/a HDOP: n/a VDOP: n/a meanDOP n/a
-51 GNSS: 1 Fix: 1 Latitude: 53.229491 Long: -0.555470 PDOP: n/a HDOP: good VDOP: n/a meanDOP n/a
-52 GNSS: 1 Fix: 1 Latitude: 53.229491 Long: -0.555469 PDOP: good HDOP: good VDOP: ideal meanDOP good
-53 GNSS: 1 Fix: 1 Latitude: 53.229491 Long: -0.555468 PDOP: good HDOP: good VDOP: ideal meanDOP good
-54 GNSS: 1 Fix: 1 Latitude: 53.229491 Long: -0.555468 PDOP: good HDOP: good VDOP: ideal meanDOP good
-55 GNSS: 1 Fix: 1 Latitude: 53.229492 Long: -0.555463 PDOP: good HDOP: good VDOP: ideal meanDOP good
-56 GNSS: 1 Fix: 1 Latitude: 53.229492 Long: -0.555465 PDOP: good HDOP: good VDOP: ideal meanDOP good
-57 GNSS: 1 Fix: 1 Latitude: 53.229492 Long: -0.555464 PDOP: good HDOP: good VDOP: ideal meanDOP good
-58 GNSS: 1 Fix: 1 Latitude: 53.229493 Long: -0.555462 PDOP: good HDOP: good VDOP: ideal meanDOP good
+51 GNSS: 1 Fix: 1 Latitude: 55.229491 Long: -0.555470 PDOP: n/a HDOP: good VDOP: n/a meanDOP n/a
+52 GNSS: 1 Fix: 1 Latitude: 55.229491 Long: -0.555469 PDOP: good HDOP: good VDOP: ideal meanDOP good
+53 GNSS: 1 Fix: 1 Latitude: 55.229491 Long: -0.555468 PDOP: good HDOP: good VDOP: ideal meanDOP good
+54 GNSS: 1 Fix: 1 Latitude: 55.229491 Long: -0.555468 PDOP: good HDOP: good VDOP: ideal meanDOP good
+55 GNSS: 1 Fix: 1 Latitude: 55.229492 Long: -0.555463 PDOP: good HDOP: good VDOP: ideal meanDOP good
+56 GNSS: 1 Fix: 1 Latitude: 55.229492 Long: -0.555465 PDOP: good HDOP: good VDOP: ideal meanDOP good
+57 GNSS: 1 Fix: 1 Latitude: 55.229492 Long: -0.555464 PDOP: good HDOP: good VDOP: ideal meanDOP good
+58 GNSS: 1 Fix: 1 Latitude: 55.229493 Long: -0.555462 PDOP: good HDOP: good VDOP: ideal meanDOP good

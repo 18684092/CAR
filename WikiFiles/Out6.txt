@@ -63,12 +63,12 @@ Attempting to establish GPS signal.
 33 GNSS: 1 Fix: 0 Latitude:  Long:  PDOP: n/a HDOP: n/a VDOP: n/a meanDOP n/a
 34 GNSS: 1 Fix: 0 Latitude:  Long:  PDOP: n/a HDOP: n/a VDOP: n/a meanDOP n/a
 35 GNSS: 1 Fix: 0 Latitude:  Long:  PDOP: n/a HDOP: n/a VDOP: n/a meanDOP n/a
-36 GNSS: 1 Fix: 1 Latitude: 53.229571 Long: -0.555412 PDOP: n/a HDOP: excellent VDOP: n/a meanDOP n/a
-37 GNSS: 1 Fix: 1 Latitude: 53.229582 Long: -0.555397 PDOP: good HDOP: excellent VDOP: excellent meanDOP excellent
-38 GNSS: 1 Fix: 1 Latitude: 53.229583 Long: -0.555403 PDOP: good HDOP: excellent VDOP: excellent meanDOP excellent
-39 GNSS: 1 Fix: 1 Latitude: 53.229600 Long: -0.555386 PDOP: good HDOP: excellent VDOP: excellent meanDOP excellent
-40 GNSS: 1 Fix: 1 Latitude: 53.229643 Long: -0.555352 PDOP: good HDOP: excellent VDOP: excellent meanDOP excellent
-41 GNSS: 1 Fix: 1 Latitude: 53.229638 Long: -0.555364 PDOP: good HDOP: excellent VDOP: excellent meanDOP excellent
+36 GNSS: 1 Fix: 1 Latitude: 55.229571 Long: -0.555412 PDOP: n/a HDOP: excellent VDOP: n/a meanDOP n/a
+37 GNSS: 1 Fix: 1 Latitude: 55.229582 Long: -0.555397 PDOP: good HDOP: excellent VDOP: excellent meanDOP excellent
+38 GNSS: 1 Fix: 1 Latitude: 55.229583 Long: -0.555403 PDOP: good HDOP: excellent VDOP: excellent meanDOP excellent
+39 GNSS: 1 Fix: 1 Latitude: 55.229600 Long: -0.555386 PDOP: good HDOP: excellent VDOP: excellent meanDOP excellent
+40 GNSS: 1 Fix: 1 Latitude: 55.229643 Long: -0.555352 PDOP: good HDOP: excellent VDOP: excellent meanDOP excellent
+41 GNSS: 1 Fix: 1 Latitude: 55.229638 Long: -0.555364 PDOP: good HDOP: excellent VDOP: excellent meanDOP excellent
 Shutting Down.
 MicroPython ESP32_LoBo_v3.2.24 - 2018-09-06 on ESP32 board with ESP32
 Type "help()" for more information.
