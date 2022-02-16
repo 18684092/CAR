@@ -1,5 +1,5 @@
 # CAR
-Call A Robot using TTGO T-SIM7000G Module ESP32 Development board with integrated 4G/GPS and BT/WIFI modules
+Call A Robot using LilyGo SIM7000G Module ESP32 Development board with integrated 4G/GPS and BT/WIFI modules
  - [SIM7000G Manuals](https://simcom.ee/documents/?dir=SIM7000x)
 
 **CURRENTLY testing board and getting used to different Micropythons**
@@ -11,7 +11,7 @@ Call A Robot using TTGO T-SIM7000G Module ESP32 Development board with integrate
  - If you get a `W (2128) phy_init: failed to load RF calibration data (0x1102), falling back to full calibration` error this is likely to be related to a power supply issue. Use a better cable or do not go through a USB hub. Unplug ESP32 card and try again
 
 ## LoBo MicroPython
-- [LoBo](https://github.com/loboris/MicroPython_ESP32_psRAM_LoBo) is not maintained any more (since 2018) and ideally standard MicroPython should be used, however specific boards have specific needs and the TTGO T-SIM7000G with ESP32 requires GSM module which isnt present within standard MicroPython. 
+- [LoBo](https://github.com/loboris/MicroPython_ESP32_psRAM_LoBo) is not maintained any more (since 2018) and ideally standard MicroPython should be used, however specific boards have specific needs and the LilyGo SIM7000G with ESP32 requires GSM module which isnt present within standard MicroPython. 
 
 ## Threads
 - [LoBo Threads](https://github.com/loboris/MicroPython_ESP32_psRAM_LoBo/wiki/thread) are slightly different from standard Micro Python threads so many examples will fail. LoBo requires a thread name as first parameter.
